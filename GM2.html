@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <body >
+        <head>
+            <link rel="stylesheet" href="GM2.css">
+            <title>GM2</title>
+        </head>
+        <div id="bc">
+            <br></br>
+            <h1>Game 2</h1>
+            <h1>GUESS THE NUMBER</h1>
+        </div>
+        <div id="bx">
+            <h4>Guess the Number is a fun and easy game which can be played by practically anyone. The user will attempt to discover a randomly generated number by making guesses.  The game will tell you if you are to high or too low and will continue until you find the correct number.  The code can be edited to make the range higher or lower so that others can create their own version of Guess the Number!</h4>
+        </div>
+        <div id="bb">
+            <p><span class="gre">import</span> random</p>
+            <p>print(<span class="re">"Welcome to guess the number game!"</span>)</p>
+            <p>print(<span class="re">"Try to guess a random number that is between 1-1000"</span>)</p>
+            <p>number <span class="pur">=</span> random.<span class="bluu">randint</span>(<span class="gre">1, 1000</span>)</p>
+            <p>answer <span class="pur">=</span><span class="gre"> -1 </span></p>
+            <p><span class="gre">while</span> answer <span class="pur">!=</span> number:</p>
+                <p class="ind">answer_str <span class="pur">=</span> input(<span class="re">"Enter your guess:"</span>)</p>
+                <p class="ind">answer <span class="pur">=</span> int(answer_str)</p>
+                <p class="ind"><span class="gre">if</span> answer <span class="pur"><</span> number:</p>
+                    <p class="doubleind">print(<span class="re">"Too low, try again."</span>)</p>
+                <p class="ind"><span class="gre">elif</span> answer <span class="pur">></span> number:</p>
+                    <p class="doubleind">print(<span class="re">"Too high, try again."</span>)</p>
+            <p>print(<span class="pur">f"Congratulations! You guessed the number {number} correctly!"</span>)</p>
+                
+        </div>
+        <div id="bd">
+            <p></p>
+            <iframe width="1000" height="660"
+            src="https://www.youtube.com/embed/phoT1uw0jTo"></iframe>
+        </div>
+        <div id="try">
+            <p>Click <a href="https://www.online-ide.com/BM6N9u10wi">Here</a> To Try It Yourself</p>
+            <p></p><a href="index.html">Return to Homepage</a>
+        </div>
+    </body>
+</html>

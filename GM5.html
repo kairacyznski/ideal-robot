@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body >
+        <head>
+            <link rel="stylesheet" href="GM4.css">
+            <title>GM5</title>
+        </head>
+        <div id="bc">
+            <br></br>
+            <h1>Game 5</h1>
+            <h1>PRIME NUMBER FINDER</h1>
+        </div>
+        <div id="bx">
+            <h4>Prime Number Finder is alike to a calculator but it can find any prime number.  If a user wants to find the 5th, 100th or any other prime numbers they just need to enter the prime number which they would like to find.  The code can be changed to others liking or added to so that users can find other math equations.  </h4>
+        </div>
+        <div id="bb">
+            <p>count <span class="pur">=</span> <span class="gre">1</span></p>
+            <p>i <span class="pur">=</span> <span class="gre">3</span></p>
+            <p>list <span class="pur">=</span> []</p>
+            <p>userinput1 <span class="pur">=</span> int(input(<span class=re>"Enter what prime number you want to find"</span>))</p>
+            <p><span class="gre">while</span> count <span class="pur">!=</span> userinput1:</p>
+                <p class="doubleind"><span class="gre">for</span> k <span class="gre">in</span> range(<span class="gre">2</span>,i):</p>
+                    <p class="tripleind"><span class="gre">if</span> i<span class="pur">%</span>k <span class="pur">==</span> <span class="gre">0</span>:</p>       
+                        <p class="quadrupleind"><span class="gre"><b>break</b></span></p>
+                <p class="doubleind"><span class="gre">else</span>:</p>
+                    <p class="tripleind">list.<span class="bluu">append</span>(i)</p>
+                    <p class="tripleind">count <span class="pur">+=</span><span class="gre"> 1</span></p>
+                <p class="doubleind">i <span class="pur">+=</span> <span class="gre">2</span></p>   
+            <p>print(<span class="re">"The "</span>, userinput1, <span class="re">" prime number is"</span>,list[len(list)<span class="pur">-</span><span class="gre">1</span>])</p>
+        </div>
+        <div id="bd">
+            <p></p>
+            <iframe width="1000" height="660"
+            src="https://www.youtube.com/embed/bcboeJWsmMA"></iframe>
+        </div>
+        <div id="try">
+            <p>Click <a href="https://www.online-ide.com/RvrPDIOxF3">Here</a> To Try It Yourself</p>
+            <p></p><a href="index.html">Return to Homepage</a>
+        </div>
+    </body>
+</html>

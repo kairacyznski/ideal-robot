@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <body >
+        <head>
+            <link rel="stylesheet" href="GM4.css">
+            <title>GM6</title>
+        </head>
+        <div id="bc">
+            <br></br>
+            <h1>Game 6</h1>
+            <h1>ROCK PAPER SCISSORS</h1>
+        </div>
+        <div id="bx">
+            <h4>Rock Paper Scissors is an easy game to learn because all a user needs to do is choose Rock, Paper or Scissors.  The game will have a random choice and based off of the users choice, they can either win or loose.  The code can be modified to create more options or modified to others liking!
+            </h4>
+        </div>
+        <div id="bb">
+            <p>userinput1 <span class="pur">=</span> input(<span class="re">"Choose an item (Rock, Paper or Sissors):"</span>)</p>
+            <p>possibleactions <span class="pur">=</span> (<span class="re">"Rock"</span>,<span class="re">"Paper"</span>,<span class="re">"Sissors"</span>)</p>
+            <p><span class="gre">import</span> random</p>
+            <p>comact <span class="pur">=</span> random.<span class="bluu">choice</span>(possibleactions)</p>
+            <p>print(<span class="pur">f"You chose"</span>, userinput1, <span class="re">"and computer chose"</span>, comact)</p>
+            <p><span class="gre">if</span> userinput1 <span class="pur">==</span> comact:</p>
+                <p class="doubleind">print(<span class="re">"Both players selected"</span>, comact, <span class="re">"it is a tie!"</span>)</p>
+            <p><span class="gre">elif</span> userinput1 <span class="pur">==</span> <span class="re">"Rock"</span>:</p>
+                <p class="doubleind"><span class="gre">if</span> comact <span class="pur">==</span> <span class="re">"Sissors"</span>:</p>
+                    <p class="tripleind">print(<span class="re">"Rock defeats Sissors, you win!"</span>)</p>
+                <p class="doubleind"><span class="gre">else</span>:</p>
+                    <p class="tripleind">print(<span class="re">"Paper defeats Rock, you lose."</span>)</p>
+            <p><span class="gre">elif</span> userinput1 <span class="pur">==</span> <span class="re">"Sissors"</span>:</p>
+                <p class="doubleind"><span class="gre">if</span> comact <span class="pur">==</span> <span class="re">"Paper"</span>:</p>
+                    <p class="tripleind">print(<span class="re">"Sissors defeats Paper, you win!"</span>)</p>
+                <p class="doubleind"><span class="gre">else</span>:</p>
+                    <p class="tripleind">print(<span class="re">"Rock defeats Sissors, you lose."</span>)</p>
+            <p><span class="gre">elif</span> userinput1 <span class="pur">==</span> <span class="re">"Paper"</span>:</p>
+                <p class="doubleind"><span class="gre">if</span> comact <span class="pur">==</span> <span class="re">"Rock"</span>:</p>
+                    <p class="tripleind">print(<span class="re">"Paper defeats Rock, you win!"</span>)</p>
+                <p class="doubleind"><span class="gre">else</span>:</p>
+                    <p class="tripleind">print(<span class="re">"Sissors defeats Paper, you lose."</span>)</p>
+            <p>userinput2 <span class="pur">=</span> <span class="re">"y"</span></p>
+            <p><span class="gre">while</span> userinput2 <span class="pur">==</span> <span class="re">"y"</span>:</p>
+                <p class="doubleind">userinput2 <span class="pur">=</span> input(<span class="re">"Would you like to play again? (y/n)"</span>)</p>
+                <p class="doubleind"><span class="gre">if </span>userinput2 <span class="pur">==</span> <span class="re">'y'</span>:</p>
+                    <p class="tripleind">print(<span class="re">"Lets play again!"</span>)</p>
+                    <p class="tripleind">userinput3 <span class="pur">=</span> input(<span class="re">"Choose an item (Rock, Paper or Sissors):"</span>)</p>
+                    <p class="tripleind"><span class="gre">import</span> random</p>
+                    <p class="tripleind">comacts <span class="pur">=</span> random.<span class="bluu">choice</span>(possibleactions)</p>
+                    <p class="tripleind">print(<span class="pur">f"You chose"</span>, userinput3, <span class="re">"and computer chose"</span>, comacts)</p>
+                    <p class="tripleind"><span class="gre">if</span> userinput3 <span class="pur">==</span> comacts:</p>
+                        <p class="quadrupleind">print(<span class="re">"Both players selected"</span>, comact, <span class="re">"it is a tie!"</span>)</p>
+                    <p class="tripleind"><span class="gre">elif</span> userinput3 <span class="pur">==</span> <span class="re">"Rock"</span>:</p>
+                        <p class="quadrupleind"><span class="gre">if</span> comacts <span class="pur">==</span> <span class="re">"Sissors"</span>:</p>
+                            <p class="fivind">print(<span class="re">"Rock defeats Sissors, you win!"</span>)</p>
+                        <p class="quadrupleind"><span class="gre">else</span>:</p>
+                            <p class="fivind">print(<span class="re">"Paper defeats Rock, you lose."</span>)</p>
+                    <p class="tripleind"><span class="gre">elif</span> userinput3 <span class="pur">==</span> <span class="re">"Sissors"</span>:</p>
+                        <p class="quadrupleind"><span class="gre">if</span> comacts <span class="pur">==</span> <span class="re">"Paper"</span>:</p>
+                            <p class="fivind">print(<span class="re">"Sissors defeats Paper, you win!"</span>)</p>
+                        <p class="quadrupleind"><span class="gre">else</span>:</p>
+                            <p class="fivind">print(<span class="re">"Rock defeats Sissors, you lose."</span>)</p>
+                    <p class="tripleind"><span class="gre">elif</span> userinput3 <span class="pur">==</span> <span class="re">"Paper"</span>:</p>
+                        <p class="quadrupleind"><span class="gre">if</span> comacts <span class="pur">==</span> <span class="re">"Rock"</span>:</p>
+                            <p class="fivind">print(<span class="re">"Paper defeats Rock, you win!"</span>)</p>
+                        <p class="quadrupleind"><span class="gre">else</span>:</p>
+                            <p class="fivind">print(<span class="re">"Sissors defeats Paper, you lose."</span>)</p>
+                <p class="doubleind"><span class="gre">else</span>:</p>
+                    <p class="tripleind">print(<span class="re">"Bye"</span>)</p>
+        </div>
+        <div id="bd">
+            <p></p>
+            <iframe width="1000" height="660"
+            src="https://www.youtube.com/embed/IVdexUL6iQg"></iframe>
+        </div>
+        <div id="try">
+            <p>Click <a href="https://www.online-ide.com/PcDMBnO4eA">Here</a> To Try It Yourself</p>
+            <p></p><a href="index.html">Return to Homepage</a>
+        </div>  
+    </body>
+</html>

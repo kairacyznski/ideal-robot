@@ -1,0 +1,61 @@
+body {
+    background: lightcyan;
+    color: black;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+#try {
+    text-align: center;
+}
+#bc {
+    background-color: lightcyan;
+    width: 1000px;
+    border: 2px solid lightcyan;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bx {
+    background-color: lightcyan;
+    width: 1000px;
+    border: 2px solid lightcyan;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+}
+
+.ind {
+    padding-left: 50px;
+}
+
+.doubleind {
+    padding-left: 90px;
+}
+
+.quadrupleind {
+    padding-left: 130px;
+}
+
+
+#bb{
+    background-color: white;
+    width: 1000px;
+    border: 2px solid rgb(218, 218, 218);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px
+}
+#bd {
+    text-align: center;
+}
+.gre {
+    color: rgb(0, 156, 0);
+}
+.re {
+    color: rgb(202, 0, 0)
+}
+.pur {
+    color: rgb(175, 4, 190)
+}
+.bluu {
+    color: rgb(12, 12, 168);
+}
